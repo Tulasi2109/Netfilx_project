@@ -17,7 +17,7 @@ const Card = (props) => {
           <div className='card__info'>
             <span className='card__category'>{props.title}</span>
             <h3 className='card__title'>{props.sname}</h3>
-            <h4 className= 'card__tag'>{props.tagline}</h4>
+            <h3 className= 'card__tag'>{props.tagline}</h3>
             <a href={props.link} target='_blank' rel='link'>
               <button> Watch Now</button> <p />
             </a>
